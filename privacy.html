@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark"><title>Privacy policy — Rendszeralap Backup</title></head><body><main>
+<h1>Privacy policy — Rendszeralap Backup</h1>
+<p>Effective date: October 14, 2026<br>Operator and contact: Veronika Lux, luxveruska@gmail.com</p>
+<h2>Purpose and users</h2>
+<p>This integration is a private backup tool for the operator&#x27;s own Google account. It is not offered as a multi-user service.</p>
+<h2>Google data access and use</h2>
+<p>The integration uses drive.readonly to list and read existing backup objects, and drive.file to create and manage files authorized for this application. The read permission technically covers all files accessible to the authorized account. The configured backup workflow uses a designated backup repository to store encrypted backups and verify restoration. It does not use Drive data for advertising, sale, profiling, AI processing or model training.</p>
+<h2>Storage and processing</h2>
+<p>Backup data is encrypted with restic before upload to Google Drive. Backup creation and restoration take place on the operator&#x27;s computers or hosted backup server. During restoration, decrypted data is processed in private working directories. OAuth client credentials and tokens are stored separately from the backup contents in private credential files; they are not part of this website.</p>
+<h2>Service providers and sharing</h2>
+<p>Google Drive stores the encrypted backup objects and handles Google authorization. A Hetzner-hosted server is used for the operator&#x27;s backup workflow. These providers process data under their respective service terms. This integration does not sell Google user data, disclose it to advertisers, or provide it to other users.</p>
+<h2>Retention and control</h2>
+<p>Backups remain in the operator&#x27;s Drive until she deletes them. This integration does not promise automatic deletion after a fixed period. The operator can revoke OAuth access from her Google account&#x27;s third-party connections settings. Revocation prevents future API access once effective; it does not delete existing backups or local restored copies. Deletion of those copies is a separate owner-controlled action.</p>
+<h2>Security and updates</h2>
+<p>The backup encryption key is kept separately from the encrypted repository. New OAuth credential files are restricted to the designated operator or backup process. This policy will be updated if the integration&#x27;s data practices change. Questions or requests can be sent to the operator&#x27;s contact address above.</p>
+</main></body></html>
