@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark"><title>Rendszeralap Backup</title></head><body><main>
+<h1>Rendszeralap Backup</h1>
+<p>Rendszeralap Backup is a private backup utility operated by Veronika Lux for her own account. It stores encrypted backups in her Google Drive and supports restoring those backups. It is not a public service and does not accept other users.</p>
+<h2>Google Drive access</h2>
+<p>The integration requests two permissions: drive.readonly, to read and verify existing backups, and drive.file, to create and manage files authorized for this application. The read permission can technically read all files accessible through the authorized Drive account; the backup workflow is configured to use its designated backup repository.</p>
+<p>The integration uses offline authorization so that the backup process can renew access tokens without an interactive login. Authorization can be revoked from the account&#x27;s Google third-party connections settings. Revoking access stops future API access; it does not itself delete stored backups.</p>
+<p>Privacy policy: <a href="privacy.html">Privacy policy</a><br>Contact: luxveruska@gmail.com</p>
+</main></body></html>
